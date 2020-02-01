@@ -5,6 +5,7 @@ import Home from './Routes/Home/Home';
 import Projects from './Routes/Projects/Projects';
 import Contact from './Routes/Contact/Contact';
 import Expanded from './Routes/Projects/Expanded';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 export default class App extends Component {
@@ -18,6 +19,7 @@ export default class App extends Component {
           <Route path={'/project/:projectId'} component={Expanded}/>
           <Route path={'/contact'} component={Contact}/>
         </Switch>
+        <Footer />
       </div>
     )
   }

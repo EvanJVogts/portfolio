@@ -1,0 +1,11 @@
+.projects {
+  padding-top: 2.8rem;
+}
+
+.projects ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline-start: 0px;
+  list-style: none;
+}

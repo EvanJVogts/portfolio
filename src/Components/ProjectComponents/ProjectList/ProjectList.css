@@ -1,0 +1,12 @@
+.single-project {
+  display: flex;
+  margin: 0.4em 1em;
+  justify-content: center;
+  border: 1px solid black;
+  color: white;
+}
+
+.single-project:hover {
+  cursor: pointer;
+  background-color: blue;
+}

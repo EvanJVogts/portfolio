@@ -5,7 +5,6 @@ import './ProjectDetails.css';
 export default class ProjectDetails extends Component {
   static contextType = ProjectContext
   renderTechLogos = () => {
-    console.log(this.context.tech)
     let projectTech = this.context.tech
     return projectTech.map((tech) =>
     <li>
@@ -13,23 +12,65 @@ export default class ProjectDetails extends Component {
     </li>
     )
   }
+  renderFrontendRepo = () => {
+    let frontRepo = this.context.frontRepo
+    return (
+      <a href={frontRepo}>
+        Frontend Code
+      </a>
+    )
+  }
+  renderBackendRepo = () => {
+    let backendRepo = this.context.backendRepo
+    if (backendRepo === '') {
+      return
+    } else {
+      return (
+        <a href={backendRepo}>
+          Backend Code
+        </a>
+      )
+    }
+  }
+  renderScreenshot = () => {
+    let screenshot = this.context.screenshot
+    return (
+      <img src={screenshot} alt='example screen from app' className='app-screenshot'/>
+    )
+  }
+  renderLiveLink = () => {
+    let appLink = this.context.liveLink
+    return (
+      <a href={appLink}>Link to the live app</a>
+    )
+  }
   render() {
     const {project} = this.context
     return (
-      <section>
+      <section className='project-details'>
         <div>
           <h1>{project.title}</h1>
         </div>
-        <div>
+        <div className='project-description'>
           <h2>{project.overview}</h2>
           <h3>{project.description}</h3>
           <p>{project.stories}</p>
+          <div className='live-link'>
+            {this.renderLiveLink()}
+          </div>
+        </div>
+        <div className='screenshot-border'>
+          {this.renderScreenshot()}
         </div>
         <div>
           <h2>Technologies Used</h2>
           <div className='tech-logos'>
             {this.renderTechLogos()}
           </div>
+        </div>
+        <div className='repo-links'>
+          {this.renderFrontendRepo()}
+          {this.renderBackendRepo()}
         </div>
       </section>
     )

@@ -14,3 +14,83 @@
   height: auto;
   width: 100%;
 }
+
+.project-details {
+  padding-top: 2.8rem;
+}
+
+.project-details h1 {
+  margin: 1.2rem 0rem 0.5rem 0rem;
+}
+.project-description h2 {
+  margin: 0.8rem 1rem 0rem 1rem;
+  font-variant: small-caps;
+}
+.project-description h3 {
+  border-top: 1px solid white;
+  padding-top: 1.2em;
+  margin: 1.6rem 1.8rem 0rem 1.8rem;
+}
+.project-description p {
+  margin: 1.6rem 1.8rem 2.4rem 1.8rem;
+}
+.live-link {
+  border-bottom: 1px solid white;
+  padding-bottom: 2.8em;
+  margin: 1.6rem 1.8rem 0rem 1.8rem;
+  font-size: smaller;
+}
+.live-link a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  margin: 0.4em;
+  padding: 0.6em;
+  border: 1px black solid;
+  border-radius: 12px;
+}
+.live-link a:hover {
+  background-color: white;
+  color: black;
+}
+.live-link a:visited {
+  text-decoration: none;
+}
+
+.repo-links {
+  margin: 2.4em auto 2.4em auto;
+  font-size: smaller;
+}
+
+.repo-links a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  margin: 0.4em;
+  padding: 0.6em;
+  border: 1px black solid;
+  border-radius: 12px;
+}
+
+.repo-links a:hover {
+  background-color: white;
+  color: black;
+}
+
+.repo-links a:visited {
+  text-decoration: none;
+}
+
+.app-screenshot {
+  width: inherit;
+  padding: 4% 4%;
+  border-radius: 10px;
+}
+
+.screenshot-border {
+  width: 80vw;
+  margin: 1em auto 2em auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}

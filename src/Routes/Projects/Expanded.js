@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ProjectContext from '../../Contexts/ProjectContext';
 import NavBar from '../../Components/NavBar/NavBar';
-import Footer from '../../Components/Footer/Footer';
 import ProjectDetails from '../../Components/ProjectComponents/ProjectDetails/ProjectDetails';
 import ProjectStore from '../../Components/ProjectComponents/ProjectStore';
 import { Link } from 'react-router-dom';
@@ -13,10 +12,19 @@ export default class Expanded extends Component {
   }
   componentDidMount() {
     const { projectId } = this.props.match.params
+    let project = ProjectStore[projectId]
     this.context.clearProject()
-    this.context.setProject(ProjectStore[projectId])
+    this.context.setProject(project)
     this.context.clearTech()
-    this.context.setTech(ProjectStore[projectId].tech)
+    this.context.setTech(project.tech)
+    this.context.clearFrontRepo()
+    this.context.setFrontRepo(project.frontRepo)
+    this.context.clearBackendRepo()
+    this.context.setBackendRepo(project.backRepo)
+    this.context.clearScreenshot()
+    this.context.setScreenshot(project.screenshot)
+    this.context.clearLiveLink()
+    this.context.setLiveLink(project.liveLink)
   }
   render() {
     return (
@@ -24,7 +32,6 @@ export default class Expanded extends Component {
         <NavBar />
         <ProjectDetails />
         <Link to='/projects'>Back</Link>
-        <Footer />
       </div>
     )
   }

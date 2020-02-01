@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import NavBar from '../../Components/NavBar/NavBar';
-import Footer from '../../Components/Footer/Footer';
 import ProjectList from '../../Components/ProjectComponents/ProjectList/ProjectList';
 import ProjectHeader from '../../Components/ProjectComponents/ProjectsHeader/ProjectsHeader';
 import ProjectContext from '../../Contexts/ProjectContext';
 import ProjectStore from '../../Components/ProjectComponents/ProjectStore';
+import './Projects.css';
 
 export default class Projects extends Component {
   static contextType = ProjectContext
@@ -31,13 +31,12 @@ export default class Projects extends Component {
     return (
       <div>
         <NavBar />
-        <div>
+        <section className='projects'>
           <ProjectHeader />
           <ol>
             {this.renderProjects()}
           </ol>
-        </div>
-        <Footer />
+        </section>
       </div>
     )
   }

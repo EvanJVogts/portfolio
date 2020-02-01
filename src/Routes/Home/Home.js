@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../../Components/NavBar/NavBar';
-import Footer from '../../Components/Footer/Footer';
 import Bio from '../../Components/Bio/Bio';
+import './Home.css';
 
 export default class Home extends Component {
   render() {
@@ -11,7 +11,6 @@ export default class Home extends Component {
         <NavBar />
         <Bio />
         <Link to={'/projects'}>See My Projects Here!</Link>
-        <Footer />
       </div>
     )
   }
