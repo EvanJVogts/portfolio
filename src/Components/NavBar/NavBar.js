@@ -5,11 +5,14 @@ import './NavBar.css';
 export default class NavBar extends Component {
   render() {
     return (
-      <nav className='nav-bar'>
-        <Link to='/about'>About</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
-      </nav>
+      <div>
+        <Link to='/'><h1 className='nav-name'>EV</h1></Link>
+        <nav className='nav-bar'>
+          <Link to='/about'>About</Link>
+          <Link to='/projects'>Projects</Link>
+          <Link to='/contact'>Contact</Link>
+        </nav>
+      </div>
     )
   }
 }

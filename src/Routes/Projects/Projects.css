@@ -1,5 +1,6 @@
 .projects {
-  padding-top: 2.8rem;
+  padding-top: 3.6rem;
+  padding-bottom: 2em;
 }
 
 .projects ol {
@@ -8,4 +9,18 @@
   justify-content: center;
   padding-inline-start: 0px;
   list-style: none;
+}
+
+.contact-button {
+  margin: 1em;
+  color: #666563;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: #213F52;
+}
+
+.contact-button a:hover {
+  color: #A7C0CF;
 }

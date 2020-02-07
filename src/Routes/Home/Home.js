@@ -7,10 +7,10 @@ import './Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className='home'>
         <NavBar />
         <Bio />
-        <Link to={'/projects'}>See My Projects Here!</Link>
+        <Link className='projects-button'to={'/projects'}>See My Projects Here!</Link>
       </div>
     )
   }

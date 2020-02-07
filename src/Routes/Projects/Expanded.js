@@ -4,6 +4,7 @@ import NavBar from '../../Components/NavBar/NavBar';
 import ProjectDetails from '../../Components/ProjectComponents/ProjectDetails/ProjectDetails';
 import ProjectStore from '../../Components/ProjectComponents/ProjectStore';
 import { Link } from 'react-router-dom';
+import './Expanded.css';
 
 export default class Expanded extends Component {
   static contextType = ProjectContext
@@ -28,7 +29,7 @@ export default class Expanded extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='expanded'>
         <NavBar />
         <ProjectDetails />
         <Link to='/projects'>Back</Link>

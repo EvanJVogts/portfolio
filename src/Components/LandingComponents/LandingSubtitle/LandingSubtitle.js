@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import './LandingSubtitle.css';
 
 export default class LandingSub extends Component {
   render() {
     return (
-      <div>
+      <div className='landing-subtitle'>
         <p>Hi, my name is Evan! I’m a web/software developer with a background in business to business sales.</p>
-        <Link to='about'>Learn More About Me!</Link>
+        <Link className='learn-button' to='about'>Learn More About Me!</Link>
       </div>
     )
   }

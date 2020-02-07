@@ -1,0 +1,21 @@
+.landing-header img {
+  margin: 8vh auto 2vh auto;
+  border: #213F52 1px solid;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.landing-header h1 {
+  margin: 2vh auto 6vh auto;
+  color: #213F52;
+}
+
+@media screen and (min-height: 812px) {
+  .landing-header img {
+    margin: 16vh auto 4vh auto;
+  }
+
+  .landing-header h1 {
+    margin: 4vh auto 6vh auto;
+  }
+}

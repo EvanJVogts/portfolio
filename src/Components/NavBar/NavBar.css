@@ -3,15 +3,16 @@
   flex-direction: row;
   justify-content: flex-end;
   margin: auto;
-  background-color: brown;
+  background-color: #213F52;
   position: fixed;
   top: 0;
   right: 0;
-  width: 100vw;
+  width: 100%;
+  z-index: 100;
 }
 
 .nav-bar a {
-  color: white;
+  color: #D4D1CD;
   text-decoration: none;
   margin: auto 1rem;
   padding: 0.8rem 0;
@@ -19,5 +20,15 @@
 
 .nav-bar a:hover {
   cursor: pointer;
-  color: black;
+  color: #A7C0CF;
+}
+
+.nav-name {
+  position: fixed;
+  color: #D4D1CD;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  margin-left: 0.6rem;
+  line-height: 0px;
 }

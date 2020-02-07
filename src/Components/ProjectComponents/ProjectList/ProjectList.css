@@ -2,11 +2,13 @@
   display: flex;
   margin: 0.4em 1em;
   justify-content: center;
-  border: 1px solid black;
-  color: white;
+  border: 1px solid #213F52;
+  color: #666563;
+  padding: 1em;
+  text-decoration: none;
 }
 
 .single-project:hover {
   cursor: pointer;
-  background-color: blue;
+  background-color: #A7C0CF;
 }

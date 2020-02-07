@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from '../../Components/NavBar/NavBar';
 import ProjectList from '../../Components/ProjectComponents/ProjectList/ProjectList';
 import ProjectHeader from '../../Components/ProjectComponents/ProjectsHeader/ProjectsHeader';
@@ -36,6 +37,7 @@ export default class Projects extends Component {
           <ol>
             {this.renderProjects()}
           </ol>
+          <p className='contact-button'>If these interest you, feel free to <Link to='/contact'>contact me!</Link></p>
         </section>
       </div>
     )

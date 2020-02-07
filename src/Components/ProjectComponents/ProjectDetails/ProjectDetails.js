@@ -15,7 +15,7 @@ export default class ProjectDetails extends Component {
   renderFrontendRepo = () => {
     let frontRepo = this.context.frontRepo
     return (
-      <a href={frontRepo}>
+      <a href={frontRepo} target='_blank' rel='noopener noreferrer'>
         Frontend Code
       </a>
     )
@@ -26,7 +26,7 @@ export default class ProjectDetails extends Component {
       return
     } else {
       return (
-        <a href={backendRepo}>
+        <a href={backendRepo} target='_blank' rel='noopener noreferrer'>
           Backend Code
         </a>
       )
@@ -41,7 +41,7 @@ export default class ProjectDetails extends Component {
   renderLiveLink = () => {
     let appLink = this.context.liveLink
     return (
-      <a href={appLink}>Link to the live app</a>
+      <a href={appLink} target='_blank' rel='noopener noreferrer'>Link to the live app</a>
     )
   }
   render() {

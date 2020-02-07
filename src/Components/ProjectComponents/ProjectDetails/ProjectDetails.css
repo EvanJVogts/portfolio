@@ -13,6 +13,7 @@
 .tech-logos img {
   height: auto;
   width: 100%;
+  max-width: 100px;
 }
 
 .project-details {
@@ -27,7 +28,7 @@
   font-variant: small-caps;
 }
 .project-description h3 {
-  border-top: 1px solid white;
+  border-top: 1px solid #213F52;
   padding-top: 1.2em;
   margin: 1.6rem 1.8rem 0rem 1.8rem;
 }
@@ -35,23 +36,23 @@
   margin: 1.6rem 1.8rem 2.4rem 1.8rem;
 }
 .live-link {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #213F52;
   padding-bottom: 2.8em;
   margin: 1.6rem 1.8rem 0rem 1.8rem;
   font-size: smaller;
 }
 .live-link a {
-  color: white;
-  background-color: black;
+  color: #D4D1CD;
+  background-color: #213F52;
   text-decoration: none;
   margin: 0.4em;
   padding: 0.6em;
-  border: 1px black solid;
+  border: 1px #213F52 solid;
   border-radius: 12px;
 }
 .live-link a:hover {
-  background-color: white;
-  color: black;
+  background-color: #A7C0CF;
+  color: #213F52;
 }
 .live-link a:visited {
   text-decoration: none;
@@ -63,18 +64,18 @@
 }
 
 .repo-links a {
-  color: white;
-  background-color: black;
+  color: #D4D1CD;
+  background-color: #213F52;
   text-decoration: none;
   margin: 0.4em;
   padding: 0.6em;
-  border: 1px black solid;
+  border: 1px #213F52 solid;
   border-radius: 12px;
 }
 
 .repo-links a:hover {
-  background-color: white;
-  color: black;
+  background-color: #A7C0CF;
+  color: #213F52;
 }
 
 .repo-links a:visited {
@@ -85,12 +86,14 @@
   width: inherit;
   padding: 4% 4%;
   border-radius: 10px;
+  max-width: 600px;
 }
 
 .screenshot-border {
   width: 80vw;
   margin: 1em auto 2em auto;
-  border: 1px solid black;
+  border: 1px solid #213F52;
   border-radius: 10px;
-  background-color: cornflowerblue;
+  background-color: #A7C0CF;
+  max-width: 600px;
 }
