@@ -34,9 +34,9 @@ export default class Projects extends Component {
         <Bio />
         <section className='projects'>
           <ProjectHeader />
-          <ol>
+          <dl>
             {this.renderProjects()}
-          </ol>
+          </dl>
           <p className='contact-button'>If these interest you, feel free to <Link to='/contact'>contact me!</Link></p>
         </section>
       </div>
