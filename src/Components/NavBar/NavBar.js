@@ -8,8 +8,8 @@ export default class NavBar extends Component {
       <div>
         <Link to='/'><h1 className='nav-name'>EV</h1></Link>
         <nav className='nav-bar'>
-          <a href='http://localhost:3000/projects#about'>About Me</a>
-          <a href='http://localhost:3000/projects#projects'>Projects</a>
+          <a href='https://portfolio.evanjvogts.now.sh/projects#about'>About Me</a>
+          <a href='https://portfolio.evanjvogts.now.sh/projects#projects'>Projects</a>
           <Link to='/contact'>Contact</Link>
         </nav>
       </div>
