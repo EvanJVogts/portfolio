@@ -5,11 +5,11 @@
 
 .about-me p {
   margin: 0.4rem 1rem 1rem 1rem;
+  text-align: left;
 }
 
 .about-me h3 {
   margin: 1.6rem 8% 1.8rem;
-  font-variant: small-caps;
 }
 
 .skill-logos {

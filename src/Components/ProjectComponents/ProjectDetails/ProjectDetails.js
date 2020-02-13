@@ -4,6 +4,9 @@ import './ProjectDetails.css';
 
 export default class ProjectDetails extends Component {
   static contextType = ProjectContext
+  componentDidMount() {
+    window.scrollTo(0,0)
+  }
   renderTechLogos = () => {
     let projectTech = this.context.tech
     return projectTech.map((tech) =>

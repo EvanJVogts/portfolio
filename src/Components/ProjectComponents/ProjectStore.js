@@ -21,7 +21,7 @@ const ProjectStore = [
     'a series of five multiple choice questions on the topic of Rock ' + 
     'and Roll history.',
     stories: 'Upon starting the quiz, the first question ' +
-    'is rendered along with a list of multiple choices the user can select from. ' +
+    'is rendered along with a list of multiple choice answers the user can select from. ' +
     'After submitting an answer, the user ' +
     'will receive the appropriate feedback. If correct, the app adds a point ' +
     'to their score and prompts the user to move on. If incorrect, the ' +
@@ -63,7 +63,7 @@ const ProjectStore = [
     overview: 'The place to keep track of all your favorite movies!',
     description: 'An app that is to be used as a log for any and all movies the user has seen, or intends to see.',
     stories: 'New users are able to register for a new account, or log into an existing account. ' +
-    'If the user has not seen the movies yet, they can mark it as a movie they wish to watch, as well as where it is available to watch. ' +
+    'If the user has not seen the movies yet, they can mark it as a movie they wish to watch, as well as designate where it is available to watch. ' +
     'When the user watches a new movie, they can select the "add new movie" button or edit an existing movie they had as a movie they wished to see. ' +
     'Once the user has a list of movies, they can view their to-see movies list, watched movies list, and favorite movies list from their dashboard.',
     tech: [CSS, HTML, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS],
@@ -76,8 +76,8 @@ const ProjectStore = [
     id: 3,
     title: 'SemperUbiSubUbi',
     date: '01/03/2020',
-    overview: 'Learn latin through spaced repitition',
-    description: 'This application is a platform for learning latin through the spaced repetition method. This method is known to help with memorization, and makes learning languages much easier.',
+    overview: 'Learn Latin through spaced repitition',
+    description: 'This application is a platform for learning Latin through the spaced repetition method. This method is known to help with memorization, and makes learning languages much easier.',
     stories: 'Users can sign up, login, and are presented with a dashboard containing a list of words they will learn. The user can then press "Start Practicing" to be given a Latin word that they must translate. The app keeps track of score for each word, as well as their total score.',
     tech: [CSS, HTML, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS],
     screenshot: Semper,
@@ -89,7 +89,7 @@ const ProjectStore = [
     id: 4,
     title: 'DearBeer',
     date: '01/25/2020',
-    overview: "A user friendly application for avid beer drinkers that aren't afraid to try new beers!",
+    overview: "For avid beer drinkers that aren't afraid to try new beers!",
     description: 'This application is intended to be used for beer drinkers to log all the different beers they have tried',
     stories: 'The app allows users to register and login. Once the user has entered their account, they are able to begin building their list of beers. The app will then provide the user with a detailed dashboard, where the user can see all their beers, and sort, filter or search for the beer of their choosing. The user is also able to customize the layout of the dashboard to their pleasing. The app is also linked to the Google maps API allowing users to mark exactly where they drank beer, as well as new places they might want to visit to try new beers.',
     tech: [HTML, CSS, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS],

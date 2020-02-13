@@ -10,12 +10,6 @@ import './Projects.css';
 
 export default class Projects extends Component {
   static contextType = ProjectContext
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     projectList: []
-  //   }
-  // }
   componentDidMount() {
     this.context.setProjectList(ProjectStore)
   }

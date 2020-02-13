@@ -3,11 +3,10 @@
   padding-bottom: 2em;
 }
 
-.projects ol {
+.projects dl {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-inline-start: 0px;
   list-style: none;
 }
 
