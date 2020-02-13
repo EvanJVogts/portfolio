@@ -4,9 +4,9 @@ import './ProjectsHeader.css';
 export default class ProjectHeader extends Component {
   render() {
     return (
-      <div className='projects-header'>
-        <h1>My Projects</h1>
-        <h2>Below is a list of projects I have built from the ground up:</h2>
+      <div className='projects-header' id='projects'>
+        <h2>My Projects</h2>
+        <h3>Below are the projects I have build from the ground up:</h3>
       </div>
     )
   }

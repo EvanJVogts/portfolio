@@ -1,3 +1,12 @@
+.projects-header {
+  padding-top: 3.6rem;
+}
+
 .projects-header h2 {
+  margin: 2rem 1rem 0rem 1rem;
+}
+
+.projects-header h3 {
   margin: 2rem 1rem 2rem 1rem;
+  font-variant: small-caps;
 }

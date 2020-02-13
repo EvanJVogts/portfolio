@@ -16,13 +16,13 @@ import './Bio.css';
 export default class Bio extends Component {
   render() {
     return (
-      <section className='about-me'>
+      <section className='about-me' id='about'>
         <h1>About Me</h1>
         <h3>I am a full-stack web developer and 
                   recent graduate of the engineering immersion course at Thinkful.</h3> 
-        <p>The innovation and collaboration involved in creating applications 
-                  I use daily sparked my desire to work on a team of
-                  great programmers working tirelessly develop our own. I love learning how things are created, 
+        <p>The innovation and collaboration I have seen involved in creating great applications that I use daily,
+                  sparked my desire to work on a team of
+                  great programmers to tirelessly create our own. I love learning how things are created, 
                   how things function, and how they are used. As a developer, I can experience 
                   all three of these at once.</p>
         <p>When I’m not coding, you can find me making music, playing video games,

@@ -5,20 +5,19 @@ import ProjectList from '../../Components/ProjectComponents/ProjectList/ProjectL
 import ProjectHeader from '../../Components/ProjectComponents/ProjectsHeader/ProjectsHeader';
 import ProjectContext from '../../Contexts/ProjectContext';
 import ProjectStore from '../../Components/ProjectComponents/ProjectStore';
+import Bio from '../../Components/Bio/Bio';
 import './Projects.css';
 
 export default class Projects extends Component {
   static contextType = ProjectContext
-  constructor(props) {
-    super(props)
-    this.state = {
-      projectList: []
-    }
-  }
+  // constructor(props) {
+  //   super(props)
+  //   this.state = {
+  //     projectList: []
+  //   }
+  // }
   componentDidMount() {
-    this.context.clearProject()
     this.context.setProjectList(ProjectStore)
-    this.context.clearTech()
   }
   renderProjects() {
     const { projectList = [] } = this.context
@@ -32,6 +31,7 @@ export default class Projects extends Component {
     return (
       <div>
         <NavBar />
+        <Bio />
         <section className='projects'>
           <ProjectHeader />
           <ol>

@@ -9,6 +9,7 @@
 
 .about-me h3 {
   margin: 1.6rem 8% 1.8rem;
+  font-variant: small-caps;
 }
 
 .skill-logos {
@@ -55,9 +56,9 @@
   .about-me h4 {
     margin-top: 6em;
   }
-  .skill-logos {
+  /* .skill-logos {
     margin-bottom: 4em;
     margin-left: 20em;
     margin-right: 20em;
-  }
+  } */
 }

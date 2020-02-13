@@ -1,5 +1,5 @@
 .projects {
-  padding-top: 3.6rem;
+  padding-top: 0rem;
   padding-bottom: 2em;
 }
 
@@ -23,4 +23,18 @@
 
 .contact-button a:hover {
   color: #A7C0CF;
+}
+
+.projects-button {
+  text-decoration: none;
+  color: #213F52;
+}
+
+.projects-button:hover {
+  color: #666563;
+  cursor: pointer;
+}
+
+.home {
+  padding-bottom: 2em;
 }
