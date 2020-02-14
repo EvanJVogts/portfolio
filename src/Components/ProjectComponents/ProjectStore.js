@@ -74,7 +74,7 @@ const ProjectStore = [
   },
   {
     id: 3,
-    title: 'SemperUbiSubUbi',
+    title: 'Semper Ubi Sub Ubi',
     date: 'CSS, HTML, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS',
     overview: 'Learn Latin through spaced repitition',
     description: 'This application is a platform for learning Latin through the spaced repetition method. This method is known to help with memorization, and makes learning languages much easier.',

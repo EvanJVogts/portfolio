@@ -20,9 +20,9 @@ export default class Bio extends Component {
         <h1>About Me</h1>
         <h3>I am a full-stack web developer and 
                   recent graduate of the engineering immersion course at Thinkful.</h3> 
-        <p>The innovation and collaboration I have seen being demonstrated to create some of the great applications that I use daily,
-                  sparked my desire to work on a team of
-                  programmers to help create one that I can call my own. I love learning how things are created, 
+        <p>The innovation and collaboration demonstrated by developers who created some of the great applications I use daily, inspired me to learn how to develop my own.
+                  It was this inspiration that sparked my desire to work on a team of
+                  programmers to help create useful applications. I love learning how things are created, 
                   how things function, and how they are used. As a developer, I can experience 
                   all three of these at once.</p>
         <p>When I’m not coding, you can find me making music, playing video games,

@@ -29,9 +29,11 @@
   border-top: 1px solid #213F52;
   padding-top: 1.2em;
   margin: 1.6rem 1.8rem 0rem 1.8rem;
+  text-align: left;
 }
 .project-description p {
   margin: 1.6rem 1.8rem 2.4rem 1.8rem;
+  text-align: left;
 }
 .live-link {
   border-bottom: 1px solid #213F52;
