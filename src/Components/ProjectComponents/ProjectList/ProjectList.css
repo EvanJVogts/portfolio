@@ -25,6 +25,7 @@
   position: absolute;
   margin-top: 190px;
   right: 8vw;
+  z-index: 10;
 }
 .single-project h3 {
   margin: auto 0.4rem auto 0.4rem;
