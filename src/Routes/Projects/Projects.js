@@ -12,6 +12,7 @@ export default class Projects extends Component {
   static contextType = ProjectContext
   componentDidMount() {
     this.context.setProjectList(ProjectStore)
+    window.scrollTo(0,0)
   }
   renderProjects() {
     const { projectList = [] } = this.context
