@@ -21,18 +21,18 @@
 .expand-button {
   width: 20px;
   height: 20px;
-  opacity: 60%;
+  opacity: 0.8 !important;
   position: absolute;
   margin-top: 190px;
   right: 8vw;
   z-index: 10;
 }
 .single-project h3 {
-  margin: auto 0.4rem auto 0.4rem;
+  margin: auto 0.4rem 0.8rem 0.4rem;
   min-width: 40%;
 }
 .single-project p {
-  margin: auto 1rem auto 1rem;
+  margin: 0.4rem 1rem auto 1rem;
 }
 .single-project a {
   margin: auto 1rem auto 1rem;
@@ -40,7 +40,7 @@
 }
 .short-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0.4em 1em;
 }
 
@@ -50,6 +50,15 @@
 
 .small-pic {
   margin: auto 0.4em;
+}
+
+.live-link-small {
+  margin: 0.4em auto 1.4em auto;
+  color: blue;
+}
+.live-link-small a {
+  margin: auto 1em auto 1em;
+  color: blue;
 }
 
 @media screen and (min-width: 760px) {

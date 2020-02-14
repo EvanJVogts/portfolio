@@ -10,9 +10,9 @@ export default class ProjectDetails extends Component {
   renderTechLogos = () => {
     let projectTech = this.context.tech
     return projectTech.map((tech) =>
-    <li>
+    <div className='tech-div'>
       <img src={tech} alt='tech logo'/>
-    </li>
+    </div>
     )
   }
   renderFrontendRepo = () => {

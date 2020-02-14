@@ -15,7 +15,7 @@ const ProjectStore = [
   {
     id: 0,
     title: 'Rock and Roll Quiz',
-    date: '9/24/2019',
+    date: 'CSS, HTML, JS',
     overview: 'A web quiz app',
     description: 'An interactive quiz app taking the user through ' +
     'a series of five multiple choice questions on the topic of Rock ' + 
@@ -37,7 +37,7 @@ const ProjectStore = [
   {
     id: 1,
     title: 'Bookmarks App',
-    date: '10/04/2019',
+    date: 'CSS, HTML, JS',
     overview: 'An app  to keep track of your bookmarks',
     description: 'A client-side bookmarking application that allows users to save' +
     ' bookmarks to their favorite sites by utilizing a RESTful Web API on the backend.',
@@ -59,7 +59,7 @@ const ProjectStore = [
   {
     id: 2,
     title: 'WatchDog',
-    date: '12/30/2019',
+    date: 'CSS, HTML, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS',
     overview: 'The place to keep track of all your favorite movies!',
     description: 'An app that is to be used as a log for any and all movies the user has seen, or intends to see.',
     stories: 'New users are able to register for a new account, or log into an existing account. ' +
@@ -75,7 +75,7 @@ const ProjectStore = [
   {
     id: 3,
     title: 'SemperUbiSubUbi',
-    date: '01/03/2020',
+    date: 'CSS, HTML, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS',
     overview: 'Learn Latin through spaced repitition',
     description: 'This application is a platform for learning Latin through the spaced repetition method. This method is known to help with memorization, and makes learning languages much easier.',
     stories: 'Users can sign up, login, and are presented with a dashboard containing a list of words they will learn. The user can then press "Start Practicing" to be given a Latin word that they must translate. The app keeps track of score for each word, as well as their total score.',
@@ -88,7 +88,7 @@ const ProjectStore = [
   {
     id: 4,
     title: 'DearBeer',
-    date: '01/25/2020',
+    date: 'HTML, CSS, JS, ReactJS, NodeJS, PostgreSQL, ExpressJS',
     overview: "For avid beer drinkers that aren't afraid to try new beers!",
     description: 'This application is intended to be used for beer drinkers to log all the different beers they have tried',
     stories: 'The app allows users to register and login. Once the user has entered their account, they are able to begin building their list of beers. The app will then provide the user with a detailed dashboard, where the user can see all their beers, and sort, filter or search for the beer of their choosing. The user is also able to customize the layout of the dashboard to their pleasing. The app is also linked to the Google maps API allowing users to mark exactly where they drank beer, as well as new places they might want to visit to try new beers.',

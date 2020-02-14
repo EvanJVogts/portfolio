@@ -39,7 +39,7 @@ export default class Bio extends Component {
           <img src={Mocha} alt='Mocha logo' />
           <img src={ExpressJS} alt='ExpressJS logo' />
           <img src={JQuery} alt='jQuery logo' />
-          <img src={Github} alt='Github logo'  width='150px'/>
+          <img src={Github} alt='Github logo' />
         </div>
       </section>
     )

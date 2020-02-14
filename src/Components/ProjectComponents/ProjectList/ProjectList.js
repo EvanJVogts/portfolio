@@ -21,6 +21,10 @@ export default class ProjectList extends Component {
         </div>
         <img src={expandButton} alt='expand button' className='expand-button' />
         </Link>
+        <div className='live-link-small'>
+          <a href={project.liveLink} target='_blank' rel='noopener noreferrer'>Live Link</a>
+          <a href={project.frontRepo} target='_blank' rel='noopener noreferrer'>GitHub</a>
+        </div>
       </section>
     )
   }

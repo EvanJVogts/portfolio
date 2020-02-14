@@ -4,8 +4,7 @@
   justify-content: center;
 }
 
-.tech-logos li {
-  list-style: none;
+.tech-div {
   margin: 0em 0.5em 1em 0.5em;
   width: 14%;
 }
