@@ -12,16 +12,19 @@
 
 .contact-button {
   margin: 1em;
-  color: #666563;
+}
+
+.contact-button p {
+  color: black;
 }
 
 .contact-button a {
   text-decoration: none;
-  color: #213F52;
+  color: blue;
 }
 
 .contact-button a:hover {
-  color: #A7C0CF;
+  color: black;
 }
 
 .projects-button {
